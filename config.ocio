@@ -15,7 +15,7 @@
 # PixelManager OCIO config https://github.com/Joegenco/PixelManager/
 #
 # Modified for Nuke by Roland Vyens
-# 
+# Github of this OCIO: https://github.com/RolandVyens/PixelManager-Super-OCIO
 #
 # ---- Additional sources ----
 # OpenDRT and JzDT from Jed Smith - Jedy Pod, https://github.com/jedypod/open-display-transform
@@ -2505,7 +2505,16 @@ colorspaces:
 
   - !<ColorSpace> #Raw
     name: Raw
-    aliases: [Generic Data, Non-Colour Data, Non-Color, Utility - Raw]
+    aliases: [Generic Data, Non-Colour Data, Utility - Raw]
+    family: Data
+    description: |
+        Generic data that is not color, will not apply any color transform (e.g. normal maps)
+    equalitygroup:
+    bitdepth: 32f
+    isdata: true
+
+  - !<ColorSpace> #Non-Color
+    name: Non-Color
     family: Data
     description: |
         Generic data that is not color, will not apply any color transform (e.g. normal maps)
