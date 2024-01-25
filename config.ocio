@@ -14,7 +14,7 @@
 # Further expanded upon by Genco Uney.
 # PixelManager OCIO config https://github.com/Joegenco/PixelManager/
 #
-# Modified for Nuke by Roland Vyens
+# Modified for General Purpose Softwares Such As Maya And Nuke by Roland Vyens
 # Github of this OCIO: https://github.com/RolandVyens/PixelManager-Super-OCIO
 #
 # ---- Additional sources ----
@@ -83,7 +83,7 @@ displays:
     - !<View> {name: AgX Punchy, colorspace: AgX Base sRGB, look: AgX - Punchy}
     - !<View> {name: AgX, colorspace: AgX Base sRGB}
     - !<View> {name: ACES, colorspace: ACES sRGB}
-    - !<View> {name: ACES GamutComp, colorspace: ACES LMT sRGB}
+    - !<View> {name: ACES 1.3 GamutComp, colorspace: ACES LMT sRGB}
     # - !<View> {name: AgX-Resolve Default, colorspace: AgX Resolve Default sRGB}
     # - !<View> {name: AgX-Resolve Bombastic, colorspace: AgX Resolve Bombastic sRGB}
     - !<View> {name: Filmic, colorspace: Filmic sRGB}
@@ -103,7 +103,7 @@ displays:
     - !<View> {name: AgX Punchy, colorspace: AgX Base Display P3, look: AgX - Punchy}
     - !<View> {name: AgX, colorspace: AgX Base Display P3}
     - !<View> {name: ACES, colorspace: ACES Display P3}
-    - !<View> {name: ACES GamutComp, colorspace: ACES LMT Display P3}
+    - !<View> {name: ACES 1.3 GamutComp, colorspace: ACES LMT Display P3}
     # - !<View> {name: AgX-Resolve Default, colorspace: AgX Resolve Default Display P3}
     # - !<View> {name: AgX-Resolve Bombastic, colorspace: AgX Resolve Bombastic Display P3}
     - !<View> {name: Blender Standard, colorspace: Display P3}
@@ -121,7 +121,7 @@ displays:
     - !<View> {name: AgX Punchy, colorspace: AgX Base Rec.1886, look: AgX - Punchy}
     - !<View> {name: AgX, colorspace: AgX Base Rec.1886}
     - !<View> {name: ACES, colorspace: ACES Rec.1886}
-    - !<View> {name: ACES GamutComp, colorspace: ACES LMT Rec.1886}
+    - !<View> {name: ACES 1.3 GamutComp, colorspace: ACES LMT Rec.1886}
     # - !<View> {name: AgX-Resolve Default, colorspace: AgX Resolve Default Rec.1886}
     # - !<View> {name: AgX-Resolve Bombastic, colorspace: AgX Resolve Bombastic Rec.1886}
     - !<View> {name: Blender Standard, colorspace: Rec.1886}
@@ -140,7 +140,7 @@ displays:
     - !<View> {name: AgX Punchy, colorspace: AgX Base Rec.2020, look: AgX - Punchy}
     - !<View> {name: AgX, colorspace: AgX Base Rec.2020}
     - !<View> {name: ACES, colorspace: ACES Rec.2020}
-    - !<View> {name: ACES GamutComp, colorspace: ACES LMT Rec.2020}
+    - !<View> {name: ACES 1.3 GamutComp, colorspace: ACES LMT Rec.2020}
     # - !<View> {name: AgX-Resolve Default, colorspace: AgX Resolve Default Rec.2020}
     # - !<View> {name: AgX-Resolve Bombastic, colorspace: AgX Resolve Bombastic Rec.2020}
     - !<View> {name: Blender Standard, colorspace: Rec.2020}
@@ -160,7 +160,7 @@ displays:
     - !<View> {name: AgX, colorspace: AgX Base Rec.2100-PQ 1000 nits}
     - !<View> {name: TCAMv2, colorspace: TCAMv2 Rec.2100PQ(1000)}
     - !<View> {name: ACES, colorspace: ACES Rec.2100PQ(1000)}
-    - !<View> {name: ACES GamutComp, colorspace: ACES LMT Rec.2100PQ(1000)}
+    - !<View> {name: ACES 1.3 GamutComp, colorspace: ACES LMT Rec.2100PQ(1000)}
     - !<View> {name: ARRI ALF2, colorspace: ARRI ALF2 Rec.2100PQ(1000)}
     - !<View> {name: ARRI Reveal, colorspace: ARRI Reveal Rec.2100PQ(1000)}
     - !<View> {name: RED IPP2, colorspace: RED IPP2 Rec.2100PQ(1000)}
@@ -201,9 +201,9 @@ displays:
 
 active_displays: [sRGB, Display P3, Rec.1886, Rec.2020]
 
-#active_views: [Standard, AgX, AgX Punchy, AgX-Resolve Default, AgX-Resolve Bombastic, Filmic, TCAMv2, OpenDRT, JzDT, ACES, ACES GamutComp, UnrealEngine, ARRI K1S1, ARRI ALF2, ARRI Reveal, RED IPP2, Canon 201911, False Color, None, AgX Log, Filmic Log, DaVinci Intermidiate, Filmlight T-Log - E-Gamut, ACEScc, ACEScct, ARRI LogC3, ARRI LogC4, BMDFilm Gen5, CanonLog2, CanonLog3, V-Log V-Gamut, Log3G10 RWG, S-Log2 ITU-709, S-Log2 S-Gamut, S-Log3 S-Gamut3, S-Log3 S-Gamut3.Cine, S-Log3 Venice S-Gamut3, S-Log3 Venice S-Gamut3.Cine, F-Log F-Gamut, F-Log2 F-Gamut, D-Log D-Gamut, ProTune Log, N-Log, Apple Log, Standard (1000 Limited)]  
+#active_views: [Standard, AgX, AgX Punchy, AgX-Resolve Default, AgX-Resolve Bombastic, Filmic, TCAMv2, OpenDRT, JzDT, ACES, ACES 1.3 GamutComp, UnrealEngine, ARRI K1S1, ARRI ALF2, ARRI Reveal, RED IPP2, Canon 201911, False Color, None, AgX Log, Filmic Log, DaVinci Intermidiate, Filmlight T-Log - E-Gamut, ACEScc, ACEScct, ARRI LogC3, ARRI LogC4, BMDFilm Gen5, CanonLog2, CanonLog3, V-Log V-Gamut, Log3G10 RWG, S-Log2 ITU-709, S-Log2 S-Gamut, S-Log3 S-Gamut3, S-Log3 S-Gamut3.Cine, S-Log3 Venice S-Gamut3, S-Log3 Venice S-Gamut3.Cine, F-Log F-Gamut, F-Log2 F-Gamut, D-Log D-Gamut, ProTune Log, N-Log, Apple Log, Standard (1000 Limited)]  
 
-active_views: [AgX Punchy, AgX, ACES, ACES GamutComp, Filmic, Blender Standard, TCAMv2, OpenDRT, JzDT, UnrealEngine, ARRI K1S1, ARRI ALF2, ARRI Reveal, RED IPP2, Canon 201911, False Color, None, AgX Log, Filmic Log, DaVinci Intermidiate, Filmlight T-Log - E-Gamut, ACEScc, ACEScct, ARRI LogC3, ARRI LogC4, BMDFilm Gen5, CanonLog2, CanonLog3, V-Log V-Gamut, Log3G10 RWG, S-Log2 ITU-709, S-Log2 S-Gamut, S-Log3 S-Gamut3, S-Log3 S-Gamut3.Cine, S-Log3 Venice S-Gamut3, S-Log3 Venice S-Gamut3.Cine, F-Log F-Gamut, F-Log2 F-Gamut, D-Log D-Gamut, ProTune Log, N-Log, Apple Log, Standard (1000 Limited)]  
+active_views: [AgX Punchy, AgX, ACES, ACES 1.3 GamutComp, Filmic, Blender Standard, TCAMv2, OpenDRT, JzDT, UnrealEngine, ARRI K1S1, ARRI ALF2, ARRI Reveal, RED IPP2, Canon 201911, False Color, None, AgX Log, Filmic Log, DaVinci Intermidiate, Filmlight T-Log - E-Gamut, ACEScc, ACEScct, ARRI LogC3, ARRI LogC4, BMDFilm Gen5, CanonLog2, CanonLog3, V-Log V-Gamut, Log3G10 RWG, S-Log2 ITU-709, S-Log2 S-Gamut, S-Log3 S-Gamut3, S-Log3 S-Gamut3.Cine, S-Log3 Venice S-Gamut3, S-Log3 Venice S-Gamut3.Cine, F-Log F-Gamut, F-Log2 F-Gamut, D-Log D-Gamut, ProTune Log, N-Log, Apple Log, Standard (1000 Limited)]  
 
 
 #ONLY ONE INACTIVE SPACE CAN BE UN-COMMENTED AT A TIME. PICK ONE!
