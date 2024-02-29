@@ -80,10 +80,10 @@ file_rules:
  
 displays: 
   sRGB:
-    - !<View> {name: AgX Punchy, colorspace: AgX Base sRGB, look: AgX - Punchy}
-    - !<View> {name: AgX, colorspace: AgX Base sRGB}
     - !<View> {name: ACES, colorspace: ACES sRGB}
     - !<View> {name: ACES 1.3 GamutComp, colorspace: ACES LMT sRGB}
+    - !<View> {name: AgX Punchy, colorspace: AgX Base sRGB, look: AgX - Punchy}
+    - !<View> {name: AgX, colorspace: AgX Base sRGB}
     # - !<View> {name: AgX-Resolve Default, colorspace: AgX Resolve Default sRGB}
     # - !<View> {name: AgX-Resolve Bombastic, colorspace: AgX Resolve Bombastic sRGB}
     - !<View> {name: Filmic, colorspace: Filmic sRGB}
@@ -100,10 +100,10 @@ displays:
     - !<View> {name: False Color, colorspace: AgX False Color Rec.709}
     - !<View> {name: None, colorspace: Raw}
   Display P3:
-    - !<View> {name: AgX Punchy, colorspace: AgX Base Display P3, look: AgX - Punchy}
-    - !<View> {name: AgX, colorspace: AgX Base Display P3}
     - !<View> {name: ACES, colorspace: ACES Display P3}
     - !<View> {name: ACES 1.3 GamutComp, colorspace: ACES LMT Display P3}
+    - !<View> {name: AgX Punchy, colorspace: AgX Base Display P3, look: AgX - Punchy}
+    - !<View> {name: AgX, colorspace: AgX Base Display P3}
     # - !<View> {name: AgX-Resolve Default, colorspace: AgX Resolve Default Display P3}
     # - !<View> {name: AgX-Resolve Bombastic, colorspace: AgX Resolve Bombastic Display P3}
     - !<View> {name: Blender Standard, colorspace: Display P3}
@@ -118,10 +118,10 @@ displays:
     - !<View> {name: False Color, colorspace: AgX False Color P3}
     - !<View> {name: None, colorspace: Raw}
   Rec.1886:
-    - !<View> {name: AgX Punchy, colorspace: AgX Base Rec.1886, look: AgX - Punchy}
-    - !<View> {name: AgX, colorspace: AgX Base Rec.1886}
     - !<View> {name: ACES, colorspace: ACES Rec.1886}
     - !<View> {name: ACES 1.3 GamutComp, colorspace: ACES LMT Rec.1886}
+    - !<View> {name: AgX Punchy, colorspace: AgX Base Rec.1886, look: AgX - Punchy}
+    - !<View> {name: AgX, colorspace: AgX Base Rec.1886}
     # - !<View> {name: AgX-Resolve Default, colorspace: AgX Resolve Default Rec.1886}
     # - !<View> {name: AgX-Resolve Bombastic, colorspace: AgX Resolve Bombastic Rec.1886}
     - !<View> {name: Blender Standard, colorspace: Rec.1886}
@@ -137,10 +137,10 @@ displays:
     - !<View> {name: False Color, colorspace: AgX False Color Rec.709}
     - !<View> {name: None, colorspace: Raw}
   Rec.2020:
-    - !<View> {name: AgX Punchy, colorspace: AgX Base Rec.2020, look: AgX - Punchy}
-    - !<View> {name: AgX, colorspace: AgX Base Rec.2020}
     - !<View> {name: ACES, colorspace: ACES Rec.2020}
     - !<View> {name: ACES 1.3 GamutComp, colorspace: ACES LMT Rec.2020}
+    - !<View> {name: AgX Punchy, colorspace: AgX Base Rec.2020, look: AgX - Punchy}
+    - !<View> {name: AgX, colorspace: AgX Base Rec.2020}
     # - !<View> {name: AgX-Resolve Default, colorspace: AgX Resolve Default Rec.2020}
     # - !<View> {name: AgX-Resolve Bombastic, colorspace: AgX Resolve Bombastic Rec.2020}
     - !<View> {name: Blender Standard, colorspace: Rec.2020}
