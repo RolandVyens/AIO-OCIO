@@ -39,14 +39,14 @@ roles:
   reference: Linear CIE-XYZ E
 
   # Internal scene linear space
-  scene_linear: ACEScg #Linear Rec.709
-  rendering: ACEScg #Linear Rec.709
+  scene_linear: Linear Rec.709
+  rendering: Linear Rec.709
 
   # Default color space for byte image
   default_byte: sRGB
 
   # Default color space for float images
-  default_float: ACEScg #Linear Rec.709
+  default_float: Linear Rec.709
 
   # Default color space sequencer is working in
   default_sequencer: sRGB
@@ -65,8 +65,8 @@ roles:
   color_timing: AgX Log
   compositing_log: AgX Log
   default: sRGB
-  matte_paint: ACEScg #Linear Rec.709
-  texture_paint: ACEScg #Linear Rec.709
+  matte_paint: Linear Rec.709
+  texture_paint: Linear Rec.709
   
 # When using Spectral Renderer, Change XYZ role to I-E
 #  XYZ: Linear CIE-XYZ D65
