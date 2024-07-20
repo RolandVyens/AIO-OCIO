@@ -20,3 +20,16 @@ This OCIO supports Display of sRGB/Display P3/Rec1886/Rec2020, below are the sRG
 2. `config_COMP_General.ocio`: For comp softwares, using ACEScg workflow.
 3. `config_Blender.ocio`: For blender which working space is Linear Rec709.
 4. `config_COMP_Blender.ocio`: For comp softwares, using Linear Rec709 workflow, mainly using with blender.
+
+======================
+
+### **Usage:**
+
+***For General Softwares:***
+
+Set this OCIO as the software's OCIO.
+
+***For Blender:***
+
+- Copy the files to the colormanagement folder under your blender install directory.
+- Change the filename of  `config_Blender.ocio` to `config.ocio`
