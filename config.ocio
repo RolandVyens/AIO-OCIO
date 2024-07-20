@@ -1,4 +1,4 @@
-# OpenColorIO configuration file for Blender
+# OpenColorIO configuration file that dominates all color transforms
 #
 # ACEScg and ACES2065-1 spaces using OpenColorIO's BuiltinTransform
 #
