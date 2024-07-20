@@ -75,10 +75,10 @@ roles:
 #  XYZ: Linear CIE-XYZ D65
 
 file_rules:
-  - !<Rule> {name: tx, colorspace: Raw, pattern: "*", extension: tx}
-  - !<Rule> {name: PBRMaps, regex: ".*(_(Normal|normal|Roughness|roughness|Metallic|metallic|Metal|metal|Height|height|Displacement|displacement|AmbientOcclusion|ambientOcclusion|AO|ao|Specular|specular|Glossiness|glossiness|Gloss|gloss|Cavity|cavity|Subsurface|subsurface|SubsurfaceScattering|subsurfaceScattering|SSS|sss|Alpha|alpha|Opacity|opacity|_nm|_rm|_mm|_hm|_dm|_ao|_sm|_gm|_cm|_ss|_sssm|_sss|_am|_om)).*", colorspace: Non-Color}
-  - !<Rule> {name: OpenEXR, extension: "exr", pattern: "*", colorspace: Linear Rec.709}
-  - !<Rule> {name: hdr, extension: "hdr", pattern: "*", colorspace: Linear Rec.709}
+  - !<Rule> {name: tx, pattern: "*", extension: "tx", colorspace: Raw}
+  - !<Rule> {name: PBRMaps, regex: ".*(_(Normal|normal|Roughness|roughness|Metallic|metallic|Metal|metal|Height|height|Displacement|displacement|AmbientOcclusion|ambientOcclusion|AO|ao|Specular|specular|Glossiness|glossiness|Gloss|gloss|Cavity|cavity|Subsurface|subsurface|SubsurfaceScattering|subsurfaceScattering|SSS|sss|Alpha|alpha|Opacity|opacity|_nm|_rm|_mm|_hm|_dm|_ao|_sm|_gm|_cm|_ss|_sssm|_sss|_am|_om)).*", colorspace: Raw}
+  - !<Rule> {name: OpenEXR, extension: "exr", pattern: "*", colorspace: Linear ACES - AP1}
+  - !<Rule> {name: hdr, extension: "hdr", pattern: "*", colorspace: Linear ACES - AP1}
   - !<Rule> {name: ColorSpaceNamePathSearch}
   - !<Rule> {name: Default, colorspace: sRGB}
  
