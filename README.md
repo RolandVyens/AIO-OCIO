@@ -30,7 +30,7 @@ This OCIO supports Display of sRGB/Display P3/Rec1886/Rec2020, below are the sRG
 
 ***For General Softwares:***
 
-Set this OCIO as the software's OCIO.
+- Set this OCIO as the software's OCIO.
 
 <img width="637" alt="屏幕截图 2024-07-20 233922" src="https://github.com/user-attachments/assets/139f78ed-df24-4b9a-8a2d-8e1cf4dfeea6">
 
