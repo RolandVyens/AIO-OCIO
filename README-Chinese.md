@@ -1,5 +1,5 @@
 
-# PixelManager AIO OCIO
+# AIO OCIO
 
 ### 多合一色彩转换，适用于任何CG软件
 ======================
