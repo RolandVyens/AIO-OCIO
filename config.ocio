@@ -83,7 +83,10 @@ file_rules:
  
 displays: 
   sRGB:
-    - !<View> {name: sRGB, colorspace: sRGB}
+    - !<View> {name: ACES, colorspace: ACES sRGB}
+    - !<View> {name: ACES Reference GamutComp, colorspace: ACES LMT sRGB}
+    - !<View> {name: AgX Punchy, colorspace: AgX Base sRGB, look: AgX - Punchy}
+    - !<View> {name: AgX Medium High Contrast, colorspace: AgX Base sRGB, look: AgX - Medium High Contrast}
     - !<View> {name: AgX, colorspace: AgX Base sRGB}
     - !<View> {name: AgX Kraken, colorspace: AgX Base Kraken sRGB}
     - !<View> {name: AgX Kraken 800T, colorspace: AgX Base Kraken 800T sRGB}
@@ -95,8 +98,7 @@ displays:
     - !<View> {name: TCAMv2, colorspace: TCAMv2 sRGB}
     - !<View> {name: OpenDRT, colorspace: OpenDRT sRGB}
     - !<View> {name: JzDT, colorspace: JzDT sRGB}
-    - !<View> {name: ACES, colorspace: ACES sRGB}
-    - !<View> {name: ACES GamutComp, colorspace: ACES LMT sRGB}
+    - !<View> {name: sRGB, colorspace: sRGB}
     - !<View> {name: UnrealEngine, colorspace: UnrealEngine Viewport sRGB}
     - !<View> {name: Khronos Neutral, colorspace: Khronos Neutral sRGB}
     - !<View> {name: ARRI K1S1, colorspace: ARRI K1S1 sRGB}
@@ -109,7 +111,10 @@ displays:
     - !<View> {name: False Color, colorspace: AgX False Color Rec.709}
     - !<View> {name: None, colorspace: Non-Color}
   Display P3:
-    - !<View> {name: Display P3, colorspace: Display P3}
+    - !<View> {name: ACES, colorspace: ACES Display P3}
+    - !<View> {name: ACES Reference GamutComp, colorspace: ACES LMT Display P3}
+    - !<View> {name: AgX Punchy, colorspace: AgX Base Display P3, look: AgX - Punchy}
+    - !<View> {name: AgX Medium High Contrast, colorspace: AgX Base Display P3, look: AgX - Medium High Contrast}
     - !<View> {name: AgX, colorspace: AgX Base Display P3}
     - !<View> {name: AgX Kraken, colorspace: AgX Base Kraken Display P3}
     - !<View> {name: AgX Kraken 800T, colorspace: AgX Base Kraken 800T Display P3}
@@ -120,8 +125,7 @@ displays:
     - !<View> {name: TCAMv2, colorspace: TCAMv2 Display P3}
     - !<View> {name: OpenDRT, colorspace: OpenDRT Display P3}
     - !<View> {name: JzDT, colorspace: JzDT Display P3}
-    - !<View> {name: ACES, colorspace: ACES Display P3}
-    - !<View> {name: ACES GamutComp, colorspace: ACES LMT Display P3}
+    - !<View> {name: Display P3, colorspace: Display P3}
     - !<View> {name: UnrealEngine, colorspace: UnrealEngine Viewport Display P3}
     - !<View> {name: Khronos Neutral, colorspace: Khronos Neutral Display P3}
     - !<View> {name: ARRI K1S1, colorspace: ARRI K1S1 Display P3}
@@ -134,7 +138,10 @@ displays:
     - !<View> {name: False Color, colorspace: AgX False Color P3}
     - !<View> {name: None, colorspace: Non-Color}
   Rec.1886:
-    - !<View> {name: Rec.1886, colorspace: Rec.1886}
+    - !<View> {name: ACES, colorspace: ACES Rec.1886}
+    - !<View> {name: ACES Reference GamutComp, colorspace: ACES LMT Rec.1886}
+    - !<View> {name: AgX Punchy, colorspace: AgX Base Rec.1886, look: AgX - Punchy}
+    - !<View> {name: AgX Medium High Contrast, colorspace: AgX Base Rec.1886, look: AgX - Medium High Contrast}
     - !<View> {name: AgX, colorspace: AgX Base Rec.1886}
     - !<View> {name: AgX Kraken, colorspace: AgX Base Kraken Rec.1886}
     - !<View> {name: AgX Kraken, colorspace: AgX Base Kraken 800T Rec.1886}
@@ -145,8 +152,7 @@ displays:
     - !<View> {name: TCAMv2, colorspace: TCAMv2 Rec.1886}
     - !<View> {name: OpenDRT, colorspace: OpenDRT Rec.1886}
     - !<View> {name: JzDT, colorspace: JzDT Rec.1886}
-    - !<View> {name: ACES, colorspace: ACES Rec.1886}
-    - !<View> {name: ACES GamutComp, colorspace: ACES LMT Rec.1886}
+    - !<View> {name: Rec.1886, colorspace: Rec.1886}
     - !<View> {name: UnrealEngine, colorspace: UnrealEngine Viewport Rec.1886}
     - !<View> {name: Khronos Neutral, colorspace: Khronos Neutral Rec.1886}
     - !<View> {name: ARRI K1S1, colorspace: ARRI K1S1 Rec.1886}
@@ -171,7 +177,7 @@ displays:
     - !<View> {name: OpenDRT, colorspace: OpenDRT AdobeRGB}
     - !<View> {name: JzDT, colorspace: JzDT AdobeRGB}
     - !<View> {name: ACES, colorspace: ACES AdobeRGB}
-    - !<View> {name: ACES GamutComp, colorspace: ACES LMT AdobeRGB}
+    - !<View> {name: ACES Reference GamutComp, colorspace: ACES LMT AdobeRGB}
     - !<View> {name: UnrealEngine, colorspace: UnrealEngine Viewport AdobeRGB}
     - !<View> {name: Khronos Neutral, colorspace: Khronos Neutral AdobeRGB}
     - !<View> {name: ARRI K1S1, colorspace: ARRI K1S1 AdobeRGB}
@@ -184,7 +190,10 @@ displays:
     - !<View> {name: False Color, colorspace: AgX False Color Rec.709}
     - !<View> {name: None, colorspace: Non-Color}
   Rec.2020:
-    - !<View> {name: Rec.2020, colorspace: Rec.2020}
+    - !<View> {name: ACES, colorspace: ACES Rec.2020}
+    - !<View> {name: ACES Reference GamutComp, colorspace: ACES LMT Rec.2020}
+    - !<View> {name: AgX Punchy, colorspace: AgX Base Rec.2020, look: AgX - Punchy}
+    - !<View> {name: AgX Medium High Contrast, colorspace: AgX Base Rec.2020, look: AgX - Medium High Contrast}
     - !<View> {name: AgX, colorspace: AgX Base Rec.2020}
     - !<View> {name: AgX-Resolve Default, colorspace: AgX Resolve Default Rec.2020}
     - !<View> {name: AgX-Resolve Bombastic, colorspace: AgX Resolve Bombastic Rec.2020}
@@ -193,8 +202,7 @@ displays:
     - !<View> {name: TCAMv2, colorspace: TCAMv2 Rec.2020}
     - !<View> {name: OpenDRT, colorspace: OpenDRT Rec.2020}
     - !<View> {name: JzDT, colorspace: JzDT Rec.2020}
-    - !<View> {name: ACES, colorspace: ACES Rec.2020}
-    - !<View> {name: ACES GamutComp, colorspace: ACES LMT Rec.2020}
+    - !<View> {name: Rec.2020, colorspace: Rec.2020}
     - !<View> {name: UnrealEngine, colorspace: UnrealEngine Viewport Rec.2020}
     - !<View> {name: ARRI ALF2, colorspace: ARRI ALF2 Rec.2020}
     - !<View> {name: ARRI Reveal, colorspace: ARRI Reveal Rec.2020}
@@ -210,7 +218,7 @@ displays:
     - !<View> {name: AgX, colorspace: AgX Base Rec.2100-PQ 1000 nits}
     - !<View> {name: TCAMv2, colorspace: TCAMv2 Rec.2100PQ(1000)}
     - !<View> {name: ACES, colorspace: ACES Rec.2100PQ(1000)}
-    - !<View> {name: ACES GamutComp, colorspace: ACES LMT Rec.2100PQ(1000)}
+    - !<View> {name: ACES Reference GamutComp, colorspace: ACES LMT Rec.2100PQ(1000)}
     - !<View> {name: ARRI ALF2, colorspace: ARRI ALF2 Rec.2100PQ(1000)}
     - !<View> {name: ARRI Reveal, colorspace: ARRI Reveal Rec.2100PQ(1000)}
     - !<View> {name: RED IPP2, colorspace: RED IPP2 Rec.2100PQ(1000)}
@@ -253,9 +261,9 @@ displays:
 
 active_displays: [sRGB, Display P3, Rec.1886, Rec.2020, Log]
 
-# active_views: [Standard, AgX, AgX Kraken, AgX Kraken 800T, AgX-Resolve Default, AgX-Resolve Bombastic, AgX NR2383, JP2499DRT, Filmic, TCAMv2, OpenDRT, JzDT, ACES, ACES GamutComp, UnrealEngine, Khronos Neutral, ARRI K1S1, ARRI ALF2, ARRI Reveal, RED IPP2, Sony S-Cinetone, Blackmagic Extended Video, Canon 201911, False Color, None, AgX Log, AgX Kraken Log, JP2499 Log, Filmic Log, DaVinci Intermidiate, Filmlight T-Log - E-Gamut, ACEScc, ACEScct, ARRI LogC3, ARRI LogC4, BMDFilm Gen5, CanonLog2, CanonLog3, V-Log V-Gamut, Log3G10 RWG, S-Log2 ITU-709, S-Log2 S-Gamut, S-Log3 S-Gamut3, S-Log3 S-Gamut3.Cine, S-Log3 Venice S-Gamut3, S-Log3 Venice S-Gamut3.Cine, F-Log F-Gamut, F-Log2 F-Gamut, D-Log D-Gamut, ProTune Log, N-Log, Apple Log, Standard (1000 Limited)]  
+# active_views: [Standard, AgX, AgX Kraken, AgX Kraken 800T, AgX-Resolve Default, AgX-Resolve Bombastic, AgX NR2383, JP2499DRT, Filmic, TCAMv2, OpenDRT, JzDT, ACES, ACES Reference GamutComp, UnrealEngine, Khronos Neutral, ARRI K1S1, ARRI ALF2, ARRI Reveal, RED IPP2, Sony S-Cinetone, Blackmagic Extended Video, Canon 201911, False Color, None, AgX Log, AgX Kraken Log, JP2499 Log, Filmic Log, DaVinci Intermidiate, Filmlight T-Log - E-Gamut, ACEScc, ACEScct, ARRI LogC3, ARRI LogC4, BMDFilm Gen5, CanonLog2, CanonLog3, V-Log V-Gamut, Log3G10 RWG, S-Log2 ITU-709, S-Log2 S-Gamut, S-Log3 S-Gamut3, S-Log3 S-Gamut3.Cine, S-Log3 Venice S-Gamut3, S-Log3 Venice S-Gamut3.Cine, F-Log F-Gamut, F-Log2 F-Gamut, D-Log D-Gamut, ProTune Log, N-Log, Apple Log, Standard (1000 Limited)]  
 
-active_views: [sRGB, Display P3, Rec.1886, Standard, AgX, JP2499DRT, Filmic, TCAMv2, OpenDRT, JzDT, ACES, ACES GamutComp, UnrealEngine, Khronos Neutral, ARRI Reveal, RED IPP2, Sony S-Cinetone, Blackmagic Extended Video, Canon 201911, False Color, None, AgX Log, AgX Kraken Log, JP2499 Log, Filmic Log, DaVinci Intermidiate, Filmlight T-Log - E-Gamut, ACEScc, ACEScct, ARRI LogC3, ARRI LogC4, BMDFilm Gen5, CanonLog2, CanonLog3, V-Log V-Gamut, Log3G10 RWG, S-Log2 ITU-709, S-Log2 S-Gamut, S-Log3 S-Gamut3, S-Log3 S-Gamut3.Cine, S-Log3 Venice S-Gamut3, S-Log3 Venice S-Gamut3.Cine, F-Log F-Gamut, F-Log2 F-Gamut, D-Log D-Gamut, ProTune Log, N-Log, Apple Log, Standard (1000 Limited)]  
+active_views: [ACES, ACES Reference GamutComp, AgX, AgX Punchy, AgX Medium High Contrast, sRGB, Display P3, Rec.1886, Rec.2020, Standard, JP2499DRT, Filmic, TCAMv2, OpenDRT, JzDT, UnrealEngine, Khronos Neutral, ARRI Reveal, RED IPP2, Sony S-Cinetone, Blackmagic Extended Video, Canon 201911, False Color, None, AgX Log, AgX Kraken Log, JP2499 Log, Filmic Log, DaVinci Intermidiate, Filmlight T-Log - E-Gamut, ACEScc, ACEScct, ARRI LogC3, ARRI LogC4, BMDFilm Gen5, CanonLog2, CanonLog3, V-Log V-Gamut, Log3G10 RWG, S-Log2 ITU-709, S-Log2 S-Gamut, S-Log3 S-Gamut3, S-Log3 S-Gamut3.Cine, S-Log3 Venice S-Gamut3, S-Log3 Venice S-Gamut3.Cine, F-Log F-Gamut, F-Log2 F-Gamut, D-Log D-Gamut, ProTune Log, N-Log, Apple Log, Standard (1000 Limited)]  
 
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
