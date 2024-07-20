@@ -4,7 +4,7 @@
 ### All in 1 color I/O for Maya, Nuke, Houdini and more / 多合一色彩转换，适用于任何CG软件
 ======================
 
-中文版介绍与使用说明：[README-Chinese.md](https://github.com/RolandVyens/PixelManager-AIO-OCIO/blob/31dd302625216042a03a3454ecbfdcbe3cff9bf9/README-Chinese.md)
+中文版介绍与使用说明：[README-Chinese.md](https://github.com/RolandVyens/AIO-OCIO/blob/master/README-Chinese.md)
 
 This OCIO is based on the origin PixelManager OCIO made by Genco Uney, optimized for general use in all kinds of CG software. 
 
