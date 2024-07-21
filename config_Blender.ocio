@@ -55,7 +55,7 @@ roles:
   default_sequencer: sRGB
 
   # Distribution of colors in color picker
-  color_picking: sRGB
+  #color_picking: sRGB
 
   # Non-color data
   data: Non-Color
