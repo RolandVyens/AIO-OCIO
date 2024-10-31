@@ -3,6 +3,7 @@
 
 ### All in 1 color I/O for Maya, Nuke, Houdini and more / 多合一色彩转换，适用于任何CG软件
 ======================
+![OCIO](https://github.com/user-attachments/assets/461f6a96-af0b-4680-b531-b988667c4e19)
 
 中文版介绍与使用说明：[README-Chinese.md](https://github.com/RolandVyens/AIO-OCIO/blob/master/README-Chinese.md)
 
