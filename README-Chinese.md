@@ -39,6 +39,6 @@ https://github.com/Joegenco/PixelManager/
 
 ***对于Blender:***
 
-- 将压缩包内全部文件拷贝至blender安装文件夹下的colormanagement文件夹内
+- 将压缩包内全部文件拷贝至blender datafiles文件夹下的colormanagement文件夹内，例如`C:\Users\XXX\AppData\Roaming\Blender Foundation\Blender\4.5\datafiles`
 - 将`config_Blender.ocio`改名为`config.ocio`
 <img width="757" alt="屏幕截图 2024-07-20 234945" src="https://github.com/user-attachments/assets/da857992-598f-4ff4-95b2-d1fe3218e6ad">
