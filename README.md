@@ -39,6 +39,6 @@ This OCIO supports Display of sRGB/Display P3/Rec1886/Rec2020, below are the sRG
 
 ***For Blender:***
 
-- Copy the files to the colormanagement folder under your blender datafiles directory, e.g. `C:\Users\XXX\AppData\Roaming\Blender Foundation\Blender\4.5\datafiles`
+- Copy the files to the colormanagement folder under your blender datafiles directory, e.g. `C:\Users\XXX\AppData\Roaming\Blender Foundation\Blender\4.5\datafiles\colormanagement`
 - Change the filename of  `config_Blender.ocio` to `config.ocio`
 <img width="757" alt="屏幕截图 2024-07-20 234945" src="https://github.com/user-attachments/assets/da857992-598f-4ff4-95b2-d1fe3218e6ad">
