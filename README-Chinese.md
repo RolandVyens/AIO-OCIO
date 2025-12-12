@@ -22,10 +22,10 @@ https://github.com/Joegenco/PixelManager/
 
 #### 预制的配方: 
 
-1. `config_CG_General.ocio`: 适用于完全支持ACEScg的任何CG软件。
-2. `config_COMP_General.ocio`: 适用于合成软件，走ACEScg流程的项目。
-3. `config_Blender.ocio`: 适用于Blender，工作色彩空间是Linear Rec709。
-4. `config_COMP_Blender.ocio`: 适用于合成软件，走线性709流程的项目，主要是配合Blender使用。
+1. `config_CG_ACEScg.ocio`: 适用于完全支持ACEScg的任何CG软件。
+2. `config_COMP_ACEScg.ocio`: 适用于合成软件，走ACEScg流程的项目。
+3. `config_CG_Lin709.ocio`: 适用于Blender，工作色彩空间是Linear Rec709。
+4. `config_COMP_Lin709.ocio`: 适用于合成软件，走线性709流程的项目，主要是配合Blender使用。
 
 ======================
 
