@@ -16,10 +16,10 @@ This document provides AI agents with context about the AIO-OCIO project structu
 
 | Config File | Working Space | Target Applications |
 |-------------|---------------|---------------------|
-| `config_Blender.ocio` | Linear Rec.709 | Blender |
-| `config_CG_General.ocio` | ACEScg | Maya, Houdini, general CG |
-| `config_COMP_Blender.ocio` | Linear Rec.709 | Compositing with Blender |
-| `config_COMP_General.ocio` | ACEScg | Compositing (Nuke, Fusion) |
+| `config_CG_ACEScg.ocio` | ACEScg | Maya, Houdini, general CG |
+| `config_COMP_ACEScg.ocio` | ACEScg | Compositing (Nuke, Fusion) |
+| `config_CG_Lin709.ocio` | Linear Rec.709 | Blender |
+| `config_COMP_Lin709.ocio` | Linear Rec.709 | Compositing (Rec.709 workflow) |
 
 ---
 
@@ -130,7 +130,7 @@ Modify `scene_linear` role and related roles in `roles:` section.
 
 **For Blender:**
 1. Copy all files to `<Blender_datafiles>/colormanagement/`
-2. Rename `config_Blender.ocio` → `config.ocio`
+2. Rename `config_CG_Lin709.ocio` → `config.ocio`
 
 **For Other Software:**
 - Set environment variable `OCIO` to path of desired config file

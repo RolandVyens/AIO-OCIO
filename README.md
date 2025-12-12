@@ -22,10 +22,10 @@ This OCIO supports Display of sRGB/Display P3/Rec1886/Rec2020, below are the sRG
 
 #### Pre-made recipes: 
 
-1. `config_CG_General.ocio`: For general CG softwares that have full supports of ACEScg.
-2. `config_COMP_General.ocio`: For comp softwares, using ACEScg workflow.
-3. `config_Blender.ocio`: For blender which working space is Linear Rec709.
-4. `config_COMP_Blender.ocio`: For comp softwares, using Linear Rec709 workflow, mainly using with blender.
+1. `config_CG_ACEScg.ocio`: For general CG softwares that have full supports of ACEScg.
+2. `config_COMP_ACEScg.ocio`: For comp softwares, using ACEScg workflow.
+3. `config_CG_Lin709.ocio`: For blender which working space is Linear Rec709.
+4. `config_COMP_Lin709.ocio`: For comp softwares, using Linear Rec709 workflow, mainly using with blender.
 
 ======================
 
