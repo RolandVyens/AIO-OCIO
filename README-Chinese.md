@@ -5,8 +5,6 @@
 ======================
 ![OCIO](https://github.com/user-attachments/assets/1621e5e1-fb3b-4da5-8322-c8ab76396de3)
 
-下载链接：https://github.com/RolandVyens/AIO-OCIO/releases/download/1.1.4/AIO-OCIO.zip
-
 这个OCIO是基于Genco Uney的原版PixelManager修改而来，适用于Maya, Nuke, Houdini, C4D等一切CG软件。
 
 https://github.com/Joegenco/PixelManager/
